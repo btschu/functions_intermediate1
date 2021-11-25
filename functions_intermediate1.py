@@ -25,7 +25,6 @@ print(students)
 print(sports_directory)
 print(z)
 
-
 # ____________________________________________________________________________
 # 2 Iterate Through a List of Dictionaries
 # Create a function iterateDictionary(some_list) that, given a list of dictionaries, the function loops through each dictionary in the list and prints each key and the associated value. For example, given the following list:
@@ -51,6 +50,15 @@ def iterateDictionary(students):
         print(printLine)
 
 iterateDictionary(students)
+
+# how they solved it in the video walkthrough
+
+# def iterate_dictionary(list):
+#     for i in range(0, len(list)):
+#         output = ""
+#         for key,val in list[i].items():
+#             output += f" {key} - {val},"
+#         print(output)
 
 
 # ____________________________________________________________________________
@@ -80,6 +88,14 @@ def iterateDictionary2(key_name, some_list):
 
 iterateDictionary2('first_name', students)
 iterateDictionary2('last_name', students)
+
+# how they solved in the video walkthrough
+
+# def iterate_dictionary2(key_name,list):
+#     for i in range(0, len(list)):
+#         for key,val in list[i].items():
+#             if key == key_name:
+#                 print(val)
 
 # # ____________________________________________________________________________
 # # 4 Iterate Through a Dictionary with List Values
@@ -118,3 +134,12 @@ def print_info(some_dict):
             print(some_dict[key][i])
         print("")
 print_info(dojo)
+
+# video walkthrough solution to number 4
+
+# def print_info(dict):
+#     for key,val in dict.items():
+#         print("--------------")
+#         print(f"{len(val)} {key.upper()}")
+#         for i in range(0, len(val)):
+#             print(val[i])
