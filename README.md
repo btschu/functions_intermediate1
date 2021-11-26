@@ -90,10 +90,10 @@ Devoncopy
 
 
 # Tasks
-1. Update Values in Dictionaries and Lists
+- [X] 1. Update Values in Dictionaries and Lists
 
-2. Iterate Through a List of Dictionaries
+- [X] 2. Iterate Through a List of Dictionaries
 
-3. Get Values From a List of Dictionaries
+- [X] 3. Get Values From a List of Dictionaries
 
-4. Iterate Through a Dictionary with List Values
+- [X] 4. Iterate Through a Dictionary with List Values
